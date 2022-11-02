@@ -1,0 +1,96 @@
+*{
+padding: 0;
+box-sizing: border-box;
+margin: 0;
+border: 0;
+font-family: 'Jost', sans-serif;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+  
+   
+}
+body{
+    background-color: white	;
+}
+a{
+    text-decoration: none;
+    right: 3%;
+    position: relative;
+}
+
+.m2{
+    background-color: white	;
+    width: 100%;
+    height: 70px;
+
+}
+
+
+h4{
+    color: black;
+    margin: 10px;
+}
+.logo{
+    right: 87%;
+    position: relative;
+    display: flex;
+    justify-content: left;
+}
+.corpo{
+    
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imgs/i6.jpg);
+    background-repeat:no-repeat;
+     background-size: cover;
+      background-position: center;
+       background-attachment: fixed;
+}
+
+.texto{
+    font-size: 30px;
+    color: white	;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    animation: fadeInUp ;
+    animation-duration: 2.5s;
+    
+}
+.parceiros{
+    width: 100%;
+    height: 175px;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+#pcr{
+    width: 20%;
+    height: 175px;
+    align-items: center;
+    position: relative;
+    text-align: center;
+   
+}
+#pcr:hover{
+   
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+#img{
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: 25%;
+}
